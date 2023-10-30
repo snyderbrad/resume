@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.c7dcc445.css",
+    "main.js": "/resume/static/js/main.9f465df4.js",
+    "static/media/Headshot-OPS2.png": "/resume/static/media/Headshot-OPS2.065c2a1efdcc81502f60.png",
+    "static/media/Cleveland.svg": "/resume/static/media/Cleveland.0d91723bcb40a20261b5b7eeeae2bf2b.svg",
+    "index.html": "/resume/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c7dcc445.css",
+    "static/js/main.9f465df4.js"
+  ]
+}
