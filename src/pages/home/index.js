@@ -4,8 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import img from '../../assets/images/Headshot-OPS3.png'
-import img2 from '../../assets/images/Cleveland.svg'
+import img from '../../assets/images/robert.jpg'
+import img2 from '../../assets/images/rob.jpg'
 
 export const Home = () => {
   return (
@@ -17,10 +17,13 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div className="photo_section text order-2 order-lg-2 h-100 d-lg-flex flex-column">
+            <div className="photo_section text order-2 order-lg-2 h-100 d-lg-flex justify-content-center flex-column">
               <div
                 className="headshot_image"
                 style={{ backgroundImage: `url(${img})` }}
+              ></div>
+              <div
+                className="space_for_mobile"
               ></div>
               <div
                 className="cleveland_image"
