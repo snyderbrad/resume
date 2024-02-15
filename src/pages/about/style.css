@@ -2,6 +2,10 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
+.table {
+    background-color: var(--text-color);
+}
+
 .table td,
 .table th {
     color: var(--text-color);
@@ -61,7 +65,7 @@
     font-size: 45px;
 }
 
-.service__title {
+.expertise_title {
     padding: 8px 0;
     border-bottom: solid 2px var(--secondary-color);
 }
@@ -69,7 +73,6 @@
 .service-section .service-category-title {
     padding-bottom: 4px;
 }
-
 
 /*! CSS Used keyframes */
 
