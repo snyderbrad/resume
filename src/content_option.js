@@ -5,7 +5,7 @@ const meta = {
 
 const introdata = {
     title: "Bradley Snyder",
-    description: "Professional Software Developer since 2019",
+    description: "Professional Software Developer",
 };
 
 const dataabout = {
@@ -56,12 +56,12 @@ const skills = [{
 ];
 
 const services = [{
-        title: "Full Stack Development",
-        description: "In my career I have maintained and developed Python and Java full stack applications ",
+        title: "Full-Stack Development",
+        description: "In my career I have maintained and developed Python and Java full stack applications.",
     },
     {
-        title: "Front End Frameworks",
-        description: "I am always exploring the various Javascript frameworks and libraries to maintain efficiency when building user interfaces.",
+        title: "Front-End Frameworks",
+        description: "I am always learning the fast-changing language of JavaScript and how it fits into a stack elegantly and efficiently.",
     },
     {
         title: "Data Engineering",
@@ -73,6 +73,11 @@ const dataportfolio = [{
         img: "images/banner2.jpg",
         description: "Single page app made for a family member's business",
         link: "https://kayakron.com",
+    },
+    {
+        img: "images/robnextdoor.png",
+        description: "Landing page for a friend's production company.",
+        link: "https://robertsnextdoor.com",
     },
 ];
 

@@ -2,13 +2,10 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
-.table {
-    background-color: var(--text-color);
-}
-
 .table td,
 .table th {
     color: var(--text-color);
+    background-color: var(--secondary);
 }
 
 .t_border {

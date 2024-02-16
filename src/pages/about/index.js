@@ -41,10 +41,10 @@ export const About = () => {
           </Col>
           <Col lg="7">
             <table className="table caption-top">
-              <tbody>
+              <tbody className="table-body">
                 {worktimeline.map((data, i) => {
                   return (
-                    <tr key={i}>
+                    <tr class="table-row" key={i}>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
